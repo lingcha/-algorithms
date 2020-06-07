@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 public class BlockingQueueTest {
 
-    private static final int FILE_QUEUE_SIZE=10;
+    private static final int FILE_QUEUE_SIZE=100;
     private static final int SEARCH_THREADS = 100;
     private static final Path DUMMY = Path.of("");
     private static BlockingQueue<Path> queue = new ArrayBlockingQueue<>(FILE_QUEUE_SIZE);
